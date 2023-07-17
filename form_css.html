@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title>Form CSS</title>
+        <style>
+            body{
+                background-color: thistle;
+            }
+            form{
+                border: 0px solid sienna;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1.2rem;
+                color: rgb(74, 23, 74);
+                padding: 5%;
+                width: 50%;
+                position: absolute;
+                left: 20%;
+                top: 25%;
+                box-shadow: 0px 0px 100px 1px rgb(74, 23, 74);
+            }
+            .container{
+                display: flex;
+                margin: 1.5rem;
+            }
+            .forlable{
+                width: 50%;
+            }
+            .forinput{
+                width: 50%;
+            }
+            input{
+                background-color: rgba(240, 248, 255, 0);
+                border: none;
+                border-bottom: 2px solid rgb(74, 23, 74);
+                transition-duration: 2s;
+            }
+            input:focus{
+                border: none;
+                outline-width: 1px;
+                outline-color: rgb(74, 23, 74);
+            }
+
+            input[type=email]{
+                background-image: url(https://img.freepik.com/free-icon/email_318-859700.jpg);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position-x: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <div class="container">
+            <div class="forlable">
+                <lable>Full Name </lable>
+            </div>
+            <div class="forinput">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="forlable">
+                <lable>Phone </lable>
+            </div>
+            <div class="forinput">
+                <input type="tel" placeholder="Your Phone No.">
+            </div>
+        </div>
+        <div class="container">
+            <div class="forlable">
+                <lable>Email </lable>
+            </div>
+            <div class="forinput">
+                <input type="email" placeholder="Your Email">
+            </div>
+        </div>
+        <div class="container">
+            <div class="forlable">
+                <lable>Where did we go wrong ?</lable>
+            </div>
+            <div class="forinput">
+                <input type="text" placeholder="Tell me">
+            </div>
+        </div>
+
+        </form>
+    </body>
+</html>

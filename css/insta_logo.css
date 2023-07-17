@@ -1,0 +1,24 @@
+.main{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    border-radius: 100px;
+}
+
+.mainn{
+    height: 400px;
+    width: 400px;
+    /* background-color: black; */
+    border: 20px solid white;
+    margin-top: -470px;
+    margin-left: 30px;
+    border-radius: 100px;
+}
+.dot{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 251, 251);
+    border-radius: 100%;
+    margin-top: -370px;
+    margin-left: 350px;
+}

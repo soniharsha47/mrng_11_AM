@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Animation</title>
+        <style>
+            .ani{
+                width: 100%;
+                height: 10%;
+                background-color: rgb(160, 114, 57);
+                animation-name: solution;
+                animation-duration: 10s;
+                animation-iteration-count: 1;
+                /* animation-timing-function: ; */
+                animation-delay: 2s;
+                animation-fill-mode: both;
+                animation-direction:alternate;
+            }
+            /* Animation Define-> Keyframe */
+            @keyframes grras {
+                from{
+                    width: 0;
+                }
+                to{
+                    width: 100%;
+                }
+            }
+
+            @keyframes solution {
+                0%{
+                    width: 0;
+                    background-color: white;
+                }
+                10%{
+                    width: 10%;
+                    background-color: gray;
+                }
+                20%{
+                    width: 20%;
+                    background-color: aquamarine;
+                }
+                40%{
+                    width: 30%;
+                    height: 30%;
+                    background-color: azure;
+                }
+                50%{
+                    width: 50%;
+                    height: 30%;
+                    background-color: tomato;
+                }
+                80%{
+                    width: 80%;
+                    height: 30%;
+                    background-color: palevioletred;
+                }
+                100%{
+                    width: 100%;
+                    height: 30%;
+                    background-color: slategray;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="ani"></div>
+    </body>
+</html>

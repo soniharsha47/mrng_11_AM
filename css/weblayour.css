@@ -1,0 +1,88 @@
+*{
+    color: #DDE6ED;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+}
+.header{
+    background-color: #27374D;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 2%;
+    background-image: url(../media/glogo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 1%;
+}
+/* Offer */
+marquee{
+    font-size: 25px;
+    background-color:#526D82;
+    padding: 1%;
+}
+
+
+/* Container Nav + Content */
+.container{
+    display: flex;
+}
+
+/* Navigation bar */
+.nav{
+    width: 10%;
+    height: 800px;
+    background-color: #526D82;
+    cursor:pointer;
+}
+.navul{
+    list-style-type:none;
+}
+.navli{
+    /* background-color: bisque; */
+    /* padding: 50%; */
+    padding-top: 50%;
+}
+a{
+    cursor:grab;
+}
+/* Content */
+.content{
+    width: 90%;
+    height: 800px;
+    background-color: #9DB2BF;
+}
+/* Collection */
+.collection{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    margin: 5%;
+    height: 300px;
+    width: 300px;
+    border: 1px solid #27374D;
+    border-radius: 2%;
+    transition-duration: 1.5s;
+}
+.box:hover{
+    box-shadow: 0px 0px 50px 1px #27374D;
+}
+.bimg{
+    height: 90%;
+    width: 100%;
+}
+.btitle{
+    font-size: 25px;
+    text-align: center;
+    color: #27374D;
+    font-weight: bold;
+}
+
+/* Footer */
+.footer{
+    background-color: #27374D;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+}
